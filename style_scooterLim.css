@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background-image: url(scooterLim_images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat';
+
+}
+
+/* RIQUADRO NERO */
+
+#riquadro_nero{
+    /* border: 3px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* LOGO */
+
+#div_logo{
+    /* border: 3px solid green; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_logo img{
+    width: 100%;
+}
+
+/* SOTTOTITOLO1 */
+
+#sottotitolo_1{
+    color: rgb(19, 209, 19);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* BLOCCO VERDE  */
+
+#blocco_verde{
+    background-color: rgb(19, 209, 19);
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* BOTTONI */
+
+input[type="button"]{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type="button"]:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(19, 209, 19);
+}
+
+/* DISPOSITIVI */
+
+#div_dispositivi{
+    color: whitesmoke;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nome_dispositivo{
+    color: whitesmoke;
+    list-style:square ;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.indicazioni_dispositivo{
+    list-style: "↦ ";
+    margin-bottom: 15px;
+}
+
+/* STATO DELLA CARICA */
+
+#barra_dispositivo1{
+    width: 32%;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 0.5%;
+}
+
+#barra_dispositivo2{
+    width: 65%;
+    height: 40px;
+    background-color: rgb(9, 172, 9);
+    border-radius: 10px;
+    margin-top: 0.5%;
+}
+
+#barra_dispositivo3{
+    width: 15%;
+    height: 40px;
+    background-color: rgb(167, 8, 8);
+    border-radius: 10px;
+    margin-top: 0.5%;
+}
